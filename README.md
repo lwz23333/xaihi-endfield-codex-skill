@@ -28,6 +28,3 @@ This repository is a cleaned release package. It does not include private chat l
 ## Update Date
 
 Current source boundary: 2026-06-08.
-
-
-
