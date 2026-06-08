@@ -10,6 +10,14 @@ This Skill was primarily built with [qian-gugugaga/Character_Skill_Producer](htt
 
 [AngChow/endfield-story-corpus](https://github.com/AngChow/endfield-story-corpus) was used as one of the public story corpus sources for selected Baker, mission, operator file and worldbuilding references.
 
+## Acknowledgements
+
+- Built primarily with [Character_Skill_Producer](https://github.com/qian-gugugaga/Character_Skill_Producer).
+- Public story corpus references include [endfield-story-corpus](https://github.com/AngChow/endfield-story-corpus).
+- Skill generation and refinement were assisted by [Codex](https://github.com/codex).
+
+> 愿知识庇护您的道路。
+
 ## Contents
 
 - `SKILL.md`: main skill instructions
