@@ -4,6 +4,12 @@
 
 本 Skill 基于公开资料、公开剧情语料与可追溯来源进行整理和行为蒸馏，用于模拟赛希的表达风格、知识边界、世界观锚点和 Baker 特殊交互。
 
+## Build And Sources
+
+This Skill was primarily built with [qian-gugugaga/Character_Skill_Producer](https://github.com/qian-gugugaga/Character_Skill_Producer).
+
+[AngChow/endfield-story-corpus](https://github.com/AngChow/endfield-story-corpus) was used as one of the public story corpus sources for selected Baker, mission, operator file and worldbuilding references.
+
 ## Contents
 
 - `SKILL.md`: main skill instructions
