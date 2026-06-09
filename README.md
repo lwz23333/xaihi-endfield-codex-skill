@@ -50,6 +50,38 @@ or reference the local skill file explicitly:
 
 If the skill does not appear immediately, restart Codex or start a fresh conversation so the skills list can reload.
 
+## Using With Other Agents
+
+This repository is designed as a Codex Skill, but most of its content is plain Markdown and can be adapted to other agents.
+
+General adaptation method:
+
+1. Put the full content of `SKILL.md` into the agent's system prompt, character prompt, custom instruction, or long-term memory.
+2. Keep `manifest.json` and `references/` as retrieval or knowledge files if the agent supports file-based knowledge.
+3. Tell the agent to follow the role-play rules, knowledge boundaries and source boundary in `SKILL.md` before entering character mode.
+4. If the agent has limited context, load `SKILL.md` first and only add selected files from `references/` when needed.
+
+Minimal prompt:
+
+```text
+Read and follow the character instructions in SKILL.md.
+Use references/ only as supporting knowledge.
+Stay within the stated source boundary and do not invent unreleased canon.
+Now role-play as Xaihi / 赛希.
+```
+
+Suggested mapping:
+
+| Agent type | How to adapt |
+|---|---|
+| ChatGPT / custom GPT-style agents | Put `SKILL.md` into Instructions and upload `references/` as knowledge files. |
+| Claude Projects | Add `SKILL.md` as project instructions and upload `references/` as project knowledge. |
+| Local LLM frontends | Paste `SKILL.md` into the system prompt; use `references/` with RAG if available. |
+| RAG agents | Index `references/`, but keep `SKILL.md` as the highest-priority behavior prompt. |
+| Simple chatbots | Use only `SKILL.md`; skip research files if context is too small. |
+
+Do not treat `references/` as higher priority than `SKILL.md`. The research files explain the distillation, while `SKILL.md` defines the actual runtime behavior.
+
 ## Contents
 
 - `SKILL.md`: main skill instructions
