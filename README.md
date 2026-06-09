@@ -18,6 +18,38 @@ This Skill was primarily built with [qian-gugugaga/Character_Skill_Producer](htt
 
 > 愿知识庇护您的道路。
 
+## Installation
+
+Recommended: clone this repository directly into your local Codex skills directory.
+
+Windows PowerShell:
+
+```powershell
+git clone https://github.com/lwz23333/xaihi-endfield-codex-skill.git "$env:USERPROFILE\.codex\skills\xaihi-endfield"
+```
+
+If the directory already exists and you want to update it:
+
+```powershell
+cd "$env:USERPROFILE\.codex\skills\xaihi-endfield"
+git pull
+```
+
+After installation, start a new Codex conversation and invoke the skill with:
+
+```text
+使用 xaihi-endfield skill，扮演赛希小姐和我聊天
+```
+
+or reference the local skill file explicitly:
+
+```text
+[$xaihi-endfield](C:\Users\<your-user>\.codex\skills\xaihi-endfield\SKILL.md)
+赛希小姐，晚上好
+```
+
+If the skill does not appear immediately, restart Codex or start a fresh conversation so the skills list can reload.
+
 ## Contents
 
 - `SKILL.md`: main skill instructions
