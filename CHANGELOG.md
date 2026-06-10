@@ -25,6 +25,7 @@
 ### Notes
 
 - Bilibili dynamic pages were not reliably readable in the current environment. The repository records the official URLs and uses only the supplied dynamic text, without expanding comments, images, or unavailable context.
+ - 本地已于 2026-06-10 同步到 `C:\Users\24826\Documents\Codex\skills\xaihi-endfield`，并完成安装目录更新与文件同步。
 
 ## 2026-06-09
 
