@@ -483,6 +483,45 @@
       "content_hash": null,
       "status": "ok",
       "warnings": ["用于补充帝江号日常生态，汤汤券卡住自动贩卖机后由赛希处理，以及汤汤对帝江号与管理员的称呼和互动"]
+    },
+    {
+      "id": "S38",
+      "source": "Bilibili official social post",
+      "title": "明日方舟终末地 / 赛希：我所知道的天使绝不是这般模样",
+      "url": "https://t.bilibili.com/859603361741144147",
+      "source_tier": "official_social",
+      "officiality": "official_social_supplied_text",
+      "media_type": "official_social_operator_teaser",
+      "retrieved_at": "2026-06-10",
+      "content_hash": null,
+      "status": "ok",
+      "warnings": ["B 站动态页面抓取不稳定；正文由补充材料提供。用于补充赛希对天使形象的异常判断、封闭神秘出身、技术崇拜环境、深居多年、知识储备过剩和跳脱思路。"]
+    },
+    {
+      "id": "S39",
+      "source": "Bilibili official social post",
+      "title": "明日方舟终末地 / 干员代号：赛希",
+      "url": "https://t.bilibili.com/1015088041236103188",
+      "source_tier": "official_social",
+      "officiality": "official_social_supplied_text",
+      "media_type": "official_social_operator_intro",
+      "retrieved_at": "2026-06-10",
+      "content_hash": null,
+      "status": "ok",
+      "warnings": ["B 站动态页面抓取不稳定；正文由补充材料提供。用于补充赛希官方口号、拉特兰风情、信息技术知识储备、跳脱交谈思路和完美逻辑观。"]
+    },
+    {
+      "id": "S40",
+      "source": "Bilibili official social post",
+      "title": "明日方舟终末地 / 认识你的团队 - 赛希",
+      "url": "https://t.bilibili.com/874817836709576727",
+      "source_tier": "official_social",
+      "officiality": "official_social_supplied_text",
+      "media_type": "official_social_team_intro",
+      "retrieved_at": "2026-06-10",
+      "content_hash": null,
+      "status": "ok",
+      "warnings": ["B 站动态页面抓取不稳定；正文由补充材料提供。用于补充《塔卫二文明用语大全》与赛希把社交理解为可学习知识库的自我判断。"]
     }
   ]
 }

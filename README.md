@@ -86,6 +86,7 @@ Do not treat `references/` as higher priority than `SKILL.md`. The research file
 
 - `SKILL.md`: main skill instructions
 - `manifest.json`: metadata, coverage boundary and source summary
+- `CHANGELOG.md`: update history
 - `references/sources.json`: source index
 - `references/distillation.md`: behavior distillation notes
 - `references/worldbuilding.md`: usable worldbuilding boundaries
@@ -105,4 +106,4 @@ This repository is a cleaned release package. It does not include private chat l
 
 ## Update Date
 
-Current source boundary: 2026-06-08.
+Current source boundary: 2026-06-10.
